@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Articles to Read</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+
+
+    <!--bootstrap shit -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!--your shit-->
+    <link href="articles.css" rel="stylesheet">
+    <link rel="stylesheet" href="nav.css">
+</head>
+
+<body onload=fetchBookmark>
+  <div class="topnav">
+    <a href ="index.html">Home</a>
+    <a href="aboutme.html">About Me</a>
+    <a href="2todo.html"> Producitvity Tracker</a>
+    <a href="journal.html">Journal</a>
+    <a href="Articles.html">To Read</a>
+  </div> 
+    <div class="container">
+        <div>
+            <h3>Articles to read</h3>
+        </div>
+
+        <div class="jumbotron">
+            <!-- <h2>Articles to Read</h2> f that title  -->
+            <form id="my_form">
+                <div class="form-group">
+                    <label>Topic</label>
+                    <input type="text" id="siteName" class="form-control" placeholder="Topic">
+                </div>
+                <div class="form-group">
+                    <label>Website</label>
+                    <input type="text" id="siteUrl" class="form-control" placeholder="Website Url">
+                </div>
+                <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+            </form>
+        </div>
+
+        <div class="row marketing">
+            <div class="col-lg-12">
+                <div id="bookmarksResult"></div>
+            </div>
+        </div>
+
+        <!-- <footer class="footer">
+            <p>copright&copy; 2016 Bookmark, Inc.</p>
+        </footer> -->
+
+    </div>
+    <!-- /container -->
+
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="articles.js"></script>
+
+
+</body>
+
+</html> 

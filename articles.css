@@ -1,0 +1,141 @@
+/* Space out content a bit */
+
+body {
+  padding-top: 0px;
+  padding-bottom: 20px;
+  background-color: #333;
+}
+
+
+/* /* Everything but the jumbotron gets side spacing for mobile first but still lookslike shit on mobile????  */
+
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+/* Custom page header */
+
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+
+h3{
+  color: #4B9CD3;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+
+/* Customize container (look into if media min width is f'n up mobile */
+
+@media (min-width: 768px) {
+  .container {
+      max-width: 730px;
+      color: #333;
+      
+  }
+}
+
+.container-narrow>hr {
+  margin: 30px 0;
+}
+
+
+/*where to put ish & sign up button */
+
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #333;
+  background-color:#333;
+  color: white;
+  font-size: 30px;
+}
+
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+  background-color: #333;
+}
+
+/* brutal part below but remember this allowed you to figure out how to use the console so s/o */
+
+.marketing {
+  margin: 40px 0;
+
+}
+
+.marketing p+h4 {
+  margin-top: 28px;
+ 
+}
+
+#bookmarkResult {
+  background-color: #333;
+}
+
+div.col-lg-12 {
+  outline-width: 0px;
+  outline: none;
+  outline-style: none;
+  outline-offset: 0px;
+  background-color: #333
+}
+
+div.well{
+  background-color: #4B9CD3;
+  padding: none;
+  height: auto;
+  width: auto;
+}
+
+h2 {
+  outline-style: none;
+  background-color: #4B9CD3;
+  color: white;
+  text-align: center;
+}
+
+div#bookmarksResult {
+  color: #4B9CD3;
+  background-color: #333;
+}
+
+.well{
+  border: none;
+}
+
+
+/* Responsive: Portrait tablets and up */
+
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+      padding-right: 0;
+      padding-left: 0;
+      color: #333;
+  }
+  /* Space out the masthead */
+  .header {
+      margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+      border-bottom: 0;
+      
+  }
+} 

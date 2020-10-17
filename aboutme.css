@@ -1,0 +1,166 @@
+* {
+  background-color: #333;
+  font-family: Helvetica, sans-serif;
+}
+
+div a{
+  font-weight: normal;
+}
+
+body, {
+  /* Typography Declarations */
+  color: white;
+  font-size: 1em;
+  font-weight: normal;
+  font-family: Helvetica, sans-serif;
+}
+
+:any-link {
+  text-decoration: underline;
+  color: white;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+text-align: center;
+}
+
+.masthead-intro {
+  /* Layout Declarations */
+  margin-bottom: 0.0em;
+  /* Typography Declarations */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 12px;
+  padding: .5;
+  margin: .5;
+}
+
+.masthead-heading {
+  /* Layout Declarations */
+  color: white;
+  margin-top: 0.0em;
+  /* Typography Declarations */
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 4em;
+  letter-spacing: -0.02em;
+  text-transform: lowercase;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.introduction-section > p,
+.location-section > p,
+.questions-section,
+.content-footer > p {
+  /* Typography Declarations */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.questions-section > h2 {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  /* Layout */
+  margin: 2em 0 1em 0;
+}
+
+/* section headers */
+section > h1, strong {
+  margin-top: .5em;
+  text-align: left;
+  color:  #4B9CD3;
+}
+
+/* header design */
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+text-align: center;
+}
+
+
+.masthead-intro {
+margin-bottom: 0.1em;
+font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 3em;
+}
+
+.masthead-heading {
+margin-top: -0.1em;
+font-family: "Open Sans", "Helvetica Neue", sans-serif;
+font-weight: normal;
+font-size: 2em;
+letter-spacing: -0.02em;
+text-transform: capitalize;
+}
+.introduction > p,
+.location > p,
+.content-footer > p {
+  /* Typography Declarations */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+h2 {
+  /* Typography Declarations */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  color:  #4B9CD3;
+}
+
+.core-section,
+.why-section,
+.goals-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0em;
+  padding: 1px;
+  margin-bottom: .1em;
+  line-height: 1.5;
+  text-align: left;
+  color: white;
+}
+.content-footer {
+margin: 50px 0;
+padding: 20px 0;
+text-align: center;
+background-color: #73A8C2;
+text-decoration: none;
+}
+.social > li {
+display: inline-block;
+margin: 0 5px;
+}
+.content-footer > p {
+color: purple;
+}
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #21206b;
+}
+
+/* @media only screen and (max-width: 500px) {
+  .masthead {
+      padding: 3em 0;
+  }
+  .masthead-heading {
+      font-size: 3em;
+  }
+  .content-footer {
+      padding: 2em 2.5em;
+}
+
+} */
